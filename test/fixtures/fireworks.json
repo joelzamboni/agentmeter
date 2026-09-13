@@ -1,0 +1,5 @@
+{"schemaVersion":1,"id":"fireworks","name":"Fireworks","ready":true,"hasLocalStats":false,"hasPromptStats":false,"scope":"account","tierLabel":"Prepaid","usageStatusText":"","authHelpText":"","updatedAt":"2026-09-13T04:00:00+00:00",
+"limits":[],"balance":{"remaining":12.4,"funded":20,"spent":7.6,"currency":"USD","estimated":true},
+"todayPrompts":0,"todaySessions":0,"todayTotalTokens":1200000,"todayTokensByModel":{},"totalPrompts":0,"totalSessions":0,"activeDays":9,"activeDates":[],
+"recentDays":[{"date":"2026-09-07","messageCount":800000},{"date":"2026-09-08","messageCount":0},{"date":"2026-09-09","messageCount":2400000},{"date":"2026-09-10","messageCount":1100000},{"date":"2026-09-11","messageCount":0},{"date":"2026-09-12","messageCount":300000},{"date":"2026-09-13","messageCount":1200000}],
+"modelUsage":{"accounts/fireworks/models/deepseek-v4":{"inputTokens":4000000,"outputTokens":1800000,"cacheReadInputTokens":0,"cacheCreationInputTokens":0}}}

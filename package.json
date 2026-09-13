@@ -1,0 +1,31 @@
+{
+  "name": "agentmeter",
+  "module": "src/cli.tsx",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "^1.4.2",
+    "@types/react": "^19.3.0"
+  },
+  "peerDependencies": {
+    "typescript": "^7.0.2"
+  },
+  "dependencies": {
+    "ink": "^7.1.1",
+    "react": "^19.3.0"
+  },
+  "bin": {
+    "agentmeter": "src/cli.tsx"
+  },
+  "scripts": {
+    "start": "bun src/cli.tsx",
+    "dev": "bun --watch src/cli.tsx",
+    "once": "bun src/cli.tsx --once",
+    "typecheck": "bunx tsc --noEmit",
+    "build": "bun scripts/build.ts",
+    "install": "bun run build && install -Dm755 dist/agentmeter ~/.local/bin/agentmeter",
+    "release": "bun scripts/release.ts",
+    "test": "bun test"
+  },
+  "version": "0.2.1"
+}
